@@ -12,5 +12,4 @@ void main()
 	vec3 view = normalize(VertexPosition - cameraPos);
 	
 	ReflectDir = reflect(view, normal);
-	
 }
